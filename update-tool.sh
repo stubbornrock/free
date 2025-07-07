@@ -18,7 +18,7 @@ mkdir -p tmphtmls
 #wiki/chrome-download
 wget -q -O tmphtmls/download.html $DOWNLAOD_URL
 
-package=$(cat tmphtmls/download.html | grep -A2 'Win11系统专用' | grep '压缩包名称' | grep _AllNew_ | sed -n 's/<li>压缩包名称：\(.*\)<\/li>/\1/p')
+package=$(cat tmphtmls/download.html | grep -A6 'Win11 系统专用' | grep '压缩包名称' | grep _AllNew_ | sed -n 's/<li>压缩包名称：\(.*\)<\/li>/\1/p')
 echo "最新压缩包名称：${package}"
 echo "国外网盘下载地址："
 cat tmphtmls/download.html | grep 国外云盘 | grep ${package} | grep -oP '(?<=href=")[^"]+'
