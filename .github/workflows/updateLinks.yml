@@ -1,0 +1,26 @@
+name: Update links
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+jobs:
+  update-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Run update script
+        run: bash update-freeip.sh
+        
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ `git status --porcelain` ]]; then
+            git add links.txt
+            git commit -m "Auto update links.txt"
+            git push
+          else
+            echo "No changes in links.txt"
+          fi
