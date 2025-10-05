@@ -11,6 +11,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         
+      - name: cat update script
+        run: cat update-freeip.sh
+        
       - name: Run update script
         run: bash update-freeip.sh
         
