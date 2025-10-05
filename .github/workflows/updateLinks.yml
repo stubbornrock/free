@@ -3,6 +3,7 @@ name: Update links
 on:
   schedule:
     - cron: "0 * * * *"
+  workflow_dispatch:
 jobs:
   update-links:
     runs-on: ubuntu-latest
