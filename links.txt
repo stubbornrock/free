@@ -1,6 +1,6 @@
-#Date: 2026-03-24 12:51:22
+#Date: 2026-03-24 14:14:46
 # v2ray: vmess/vless
-vless://8b66e552-e89d-4c4f-bb5a-e3d37bf151b8@111.243.102.83:34500?encryption=none&amp;security=reality&amp;sni=www.lovelive-anime.jp &amp;fp=chrome&amp;pbk=Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ&amp;sid=3a1381d1b2cc9e19&amp;spx=%2F&amp;type=xhttp&amp;path=%2FZTwhzkrWeLnk5ARp8SsoVlVMGn6cSDq8CElbAniRQ9dMR#VLESS%E8%8A%82%E7%82%B91-xhttp-reality
+vless://bcb13ecb-4f63-4257-ae01-ec5aeaa613a5@157.254.223.64:23000?encryption=none&amp;security=reality&amp;sni=mxj.myanimelist.net&amp;fp=chrome&amp;pbk=dJFLqPCinyadJxJk7zA_DwBOEAvexvm7AZT2Pw84_EY&amp;sid=955275866feece09&amp;spx=%2F&amp;type=xhttp&amp;path=%2Falvin9999.com#VLESS%E8%8A%82%E7%82%B91-xhttp-reality
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlZNRVNT6IqC54K5Mi1pcHY2IiwNCiAgImFkZCI6ICIyMDAxOmJjODozMmQ3OjIyNTo6MSIsDQogICJwb3J0IjogIjIzNDU2IiwNCiAgImlkIjogImJkNDhlMGFjLWU5MGUtNDQ1MS1hNGYyLWFiZjA2MWNmYjg5MCIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAid3d3LmJpbmcuY29tIiwNCiAgInBhdGgiOiAiL2FsdmluOTk5OS5jb20iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
 hysteria2://dongtaiwang.com@[2604:6600::5cb]:22288?sni=www.microsoft.com&amp;insecure=1#Hysteria2%E8%8A%82%E7%82%B93-ipv6
 # ssr: ss/ssr
